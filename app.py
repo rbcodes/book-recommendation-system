@@ -161,6 +161,7 @@ st.markdown(
 
     /* Hide Streamlit branding */
     #MainMenu {visibility: hidden;}
+    header {visibility: hidden;}
     footer {visibility: hidden;}
     
     /* Selectbox styling */
@@ -219,7 +220,6 @@ def recommendBooks(book_name):
             book_list.append(j)
             try:
                 url = final_ratings[final_ratings["Book-Title"] == j]["Image-URL-L"].iloc[0]
-                print(url)
                 if not str(url).startswith("http"):
                     url = DEFAULT_IMAGE
             except Exception:
