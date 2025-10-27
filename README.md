@@ -117,7 +117,7 @@ Each code push triggers a CI/CD pipeline to rebuild, test, and deploy the latest
 ---
 
 ## 🙌 Acknowledgements  
-- **Dataset:** [Goodbooks-10k Dataset](https://www.kaggle.com/zygmunt/goodbooks-10k)  
+- **Dataset:** [Books Dataset](https://www.kaggle.com/datasets/saurabhbagchi/books-dataset)  
 - **Libraries:** Streamlit, scikit-learn, pandas, numpy  
 
 ---
