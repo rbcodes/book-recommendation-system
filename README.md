@@ -45,7 +45,7 @@ The system uses the **K-Nearest Neighbors (KNN)** algorithm to recommend books a
 
 ### 1. Clone the Repository  
 ```bash
-git clone https://github.com/<your-username>/book-recommendation-system.git
+git clone https://github.com/rbcodes/book-recommendation-system.git
 cd book-recommendation-system
 ```
 
